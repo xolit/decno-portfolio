@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Basit | Personal Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="menu-toggle">&#9776;</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1>Hi, I'm Abdul Basit</h1>
+                <h2>Web & Game Developer</h2>
+                <p>Creating innovative web applications and immersive gaming experiences.</p>
+                <a href="https://gogamestore.onrender.com" target="_blank" class="cta-button">Visit My Game Store</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I'm a web and game developer with expertise in building modern web applications and developing engaging games.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">C#</div>
+                <div class="skill-item">MongoDB</div>
+                <div class="skill-item">React</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Abdul Basit. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/xolit_edits?igsh=a3p6c2QxdWNhOTBh">Instagram</a>
+            <a href="https://github.com/xolit">GitHub</a>
+            <a href="https://www.facebook.com/profile.php?id=100072954586608">Facebook</a>
+            <a href="https://youtube.com/@dev_looper?si=CUYSrsUjKws-EJQa">YouTube</a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        document.querySelector(".menu-toggle").addEventListener("click", () => {
+            document.querySelector(".nav-links").classList.toggle("active");
+        });
+        AOS.init({ duration: 1000, once: true });
+    </script>
+</body>
+  </html>
+  
